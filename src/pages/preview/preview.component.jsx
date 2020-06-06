@@ -8,7 +8,13 @@ class Preview extends React.Component {
 
     render(){
         return (
-            <div>Preview</div>
+            <div className='h-full flex content-stretch'>
+                <div className='p-3 w-full flex items-center justify-center'>
+                    <div id='preview-board' className='w-2/5 shadow-lg'>
+
+                    </div>
+                </div>
+            </div>
         )
     }
 }

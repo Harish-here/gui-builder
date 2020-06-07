@@ -1,7 +1,8 @@
 #builder-ui{
     height: 500px;
+    min-height: 500px ;
 }
 
 .cell-container{
-    height: 125px;
+    height: 100px;
 }

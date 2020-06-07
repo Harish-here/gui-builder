@@ -18,13 +18,13 @@ function App() {
         <div id='App' className="">
           <div className='relative flex flex-col h-full'>
             <header id='header' className="p-4 flex justify-between content-center shadow">
-              <div class='flex content-center justify-center flex-1'>
+              <div className='flex content-center justify-center flex-1'>
                 <Link to='/' >Home</Link>
                 <Link to='/builder' >Builder</Link>
                 <Link to='/preview' >Preview</Link>
               </div>
               <div className='flex-1 text-center'>
-                <div class='f-3 b'>GUI Builder</div>
+                <div className='f-3 b'>GUI Builder</div>
               </div>
               <div className='flex-1 text-right'>User</div>
             </header>

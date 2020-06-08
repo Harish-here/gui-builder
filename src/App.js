@@ -31,8 +31,8 @@ function App() {
             <section id='main' className='flex-1 '>
               <Switch>
                 <Route exact path="/" component={Home} />
-                <Route exact path="/builder" component={Builder} />
-                <Route exact path="/preview" component={Preview} />
+                <Route exact path="/builder/:docId" component={Builder} />
+                <Route exact path="/preview/:docId" component={Preview} />
               </Switch>
             </section>
           </div>

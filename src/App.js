@@ -15,7 +15,7 @@ import { addDummyData } from './utility/utility';
 function App() {
   addDummyData()
   return (
-    <Router basename='/gui-builder'>
+    <Router>
         <div id='App' className="">
           <div className='relative flex flex-col h-full'>
             <header id='header' className="p-3 flex justify-between items-center shadow">

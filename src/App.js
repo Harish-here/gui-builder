@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link
@@ -15,7 +15,7 @@ import { addDummyData } from './utility/utility';
 function App() {
   addDummyData()
   return (
-    <Router basename='/'>
+    <Router basename='/gui-builder'>
         <div id='App' className="">
           <div className='relative flex flex-col h-full'>
             <header id='header' className="p-3 flex justify-between items-center shadow">

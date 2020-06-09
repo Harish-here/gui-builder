@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gui-builder/static/css/main.cbb08b63.chunk.css",
-    "main.js": "/gui-builder/static/js/main.23e4a433.chunk.js",
-    "main.js.map": "/gui-builder/static/js/main.23e4a433.chunk.js.map",
+    "main.js": "/gui-builder/static/js/main.5e8245fc.chunk.js",
+    "main.js.map": "/gui-builder/static/js/main.5e8245fc.chunk.js.map",
     "runtime-main.js": "/gui-builder/static/js/runtime-main.47101a2d.js",
     "runtime-main.js.map": "/gui-builder/static/js/runtime-main.47101a2d.js.map",
     "static/js/2.361da772.chunk.js": "/gui-builder/static/js/2.361da772.chunk.js",
     "static/js/2.361da772.chunk.js.map": "/gui-builder/static/js/2.361da772.chunk.js.map",
     "index.html": "/gui-builder/index.html",
-    "precache-manifest.f0b45f1c57f19313fcee41c27371bd48.js": "/gui-builder/precache-manifest.f0b45f1c57f19313fcee41c27371bd48.js",
+    "precache-manifest.310333516994ccece9b5836b2882559b.js": "/gui-builder/precache-manifest.310333516994ccece9b5836b2882559b.js",
     "service-worker.js": "/gui-builder/service-worker.js",
     "static/css/main.cbb08b63.chunk.css.map": "/gui-builder/static/css/main.cbb08b63.chunk.css.map",
     "static/js/2.361da772.chunk.js.LICENSE.txt": "/gui-builder/static/js/2.361da772.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.47101a2d.js",
     "static/js/2.361da772.chunk.js",
     "static/css/main.cbb08b63.chunk.css",
-    "static/js/main.23e4a433.chunk.js"
+    "static/js/main.5e8245fc.chunk.js"
   ]
 }

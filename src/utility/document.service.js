@@ -12,6 +12,9 @@ export function createDoc(id,name){
     let newDoc = JSON.parse(JSON.stringify(docModel));
     newDoc.docId = id;
     newDoc.docName = name;
+    let timeDate = (new Date()).toDateString() + ' - ' + (new Date()).toLocaleTimeString();
+    newDoc.createdAt = timeDate;
+    newDoc.updatedAt = timeDate; 
     localStorage.setItem(id,JSON.stringify(newDoc));
 }
 
@@ -28,6 +31,9 @@ export function getDoc(id){
 
 export function updateDoc(id,newSource){
     localStorage.removeItem(id);
+    let timeDate = (new Date()).toDateString() + ' - ' + (new Date()).toLocaleTimeString();
+    newSource.createdAt = timeDate;
+    newSource.updatedAt = timeDate;
     localStorage.setItem(id,JSON.stringify(newSource))
 }
 

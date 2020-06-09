@@ -1,10 +1,10 @@
 import React from "react";
-import Item from "../item/item.component";
+import Item from "./item.component";
 import { Droppable } from 'react-beautiful-dnd';
 import styled from 'styled-components';
 
 const Contanier = styled.div`
-    min-height: 100px;
+    min-height: 70px;
 `;
 
 class ItemList extends React.Component {
@@ -16,7 +16,7 @@ class ItemList extends React.Component {
                     <Contanier
                         {...provided.droppableProps}
                         ref={provided.innerRef} 
-                        className='h-full flex flex-col items-center'
+                        className={(this.props.columnId === "collection") ? 'flex flex-col items-center': 'flex justify-center items-center'}
                     >
                         {this.props.collections.map((x,index) => <Item columnId={this.props.columnId} key={index} item={x} index={index} />)}
                         {provided.placeholder}

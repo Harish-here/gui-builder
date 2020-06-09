@@ -7,26 +7,25 @@ import {
 } from "react-router-dom";
 import './App.css';
 
-import Home from './pages/home/home.component';
-import Builder from './pages/builder/builder.component';
-import Preview from './pages/preview/preview.component';
-
+import Home from './pages/home.page';
+import Builder from './pages/builder.page';
+import Preview from './pages/preview.page';
+import { addDummyData } from './utility/utility';
 
 function App() {
+  addDummyData()
   return (
     <Router>
         <div id='App' className="">
           <div className='relative flex flex-col h-full'>
-            <header id='header' className="p-4 flex justify-between content-center shadow">
+            <header id='header' className="p-3 flex justify-between items-center shadow">
               <div className='flex content-center justify-center flex-1'>
-                <Link to='/' >Home</Link>
-                <Link to='/builder' >Builder</Link>
-                <Link to='/preview' >Preview</Link>
+                <Link to='/' className='text-lg'><i className="fa fa-home" aria-hidden="true"></i> Home</Link>
               </div>
               <div className='flex-1 text-center'>
-                <div className='f-3 b'>GUI Builder</div>
+                <div className='f-3 text-teal-500 text-lg font-bold text-xl'>GUI Builder</div>
               </div>
-              <div className='flex-1 text-right'>User</div>
+              <div className='flex-1 text-right text-xs'>- An <b> Harish Ravi's</b> Work -</div>
             </header>
             <section id='main' className='flex-1 '>
               <Switch>
